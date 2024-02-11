@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Curso Git y GitHub'),
+      home: const MyHomePage(title: 'Ya empieza con GitHub'),
     );
   }
 }
