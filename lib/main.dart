@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
       title: 'Curso Git',
       theme: ThemeData(
 
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Rama Principal'),
+      home: const MyHomePage(title: 'Rama appBar'),
     );
   }
 }
