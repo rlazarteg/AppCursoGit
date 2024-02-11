@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
 
-        title: Text(widget.title),
+        title: Text(widget.title, style: TextStyle(backgroundColor: Colors.blueGrey),),
       ),
       body: Center(
 
