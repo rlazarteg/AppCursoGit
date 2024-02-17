@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Curso Git y GitHub de Capdesis',
+      title: 'Curso Git y GitHub',
       theme: ThemeData(
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
