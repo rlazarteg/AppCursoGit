@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      home: const MyHomePage(title: 'Empieza lo bueno'),
+      home: const MyHomePage(title: 'Espero que te esté gustando el curso'),
 
     );
   }
