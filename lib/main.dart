@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      home: const MyHomePage(title: 'Espero que te esté gustando el curso'),
+      home: const MyHomePage(title: 'Cambio hecho por Jose'),
 
     );
   }
