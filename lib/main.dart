@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text('Botón presionado', style: TextStyle(color: Colors.blueAccent, fontSize: 50),),
             Text(
               '$_counter',
-              style: TextStyle(color: Colors.blueAccent, fontSize: 500),
+              style: TextStyle(color: Colors.blueAccent, fontSize: 200),
             ),
           ],
         ),
