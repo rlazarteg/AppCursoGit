@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Curso Git y GitHub',
       theme: ThemeData(
-
+backgroundColor: Colors.blueGrey,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
 
-      home: const MyHomePage(title: 'Cambio hecho por Jose'),
+      home: const MyHomePage(title: 'Cambio hecho por Jose Capdesis xD'),
 
     );
   }
@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementCounter() {
     setState(() {
 
-      _counter++;
+      _counter+=2;
     });
   }
 
@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
 
-        title: Text(widget.title, style: TextStyle(backgroundColor: Colors.blueGrey),),
+        title: Text(widget.title,),
       ),
       body: Center(
 
@@ -60,20 +60,18 @@ class _MyHomePageState extends State<MyHomePage> {
 
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'Botón presionado',
-            ),
+            const Text('Presionaste el boton', style: TextStyle(color: Colors.blueAccent, fontSize: 50),),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+              style: TextStyle(color: Colors.blueAccent, fontSize: 200),
             ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Contactos',
-        child: const Icon(Icons.account_box),
+        tooltip: 'sumar',
+        child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
