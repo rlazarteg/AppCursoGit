@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Curso Git y GitHub',
       theme: ThemeData(
-backgroundColor: Colors.blueGrey,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
 
-      home: const MyHomePage(title: 'Curso Git y GitHub'),
+      home: const MyHomePage(title: 'Curso Git & GitHub'),
 
     );
   }
@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'sumar',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
