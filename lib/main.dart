@@ -61,9 +61,9 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text('Presionaste el boton', style: TextStyle(color: Colors.blueAccent, fontSize: 50),),
             Text(
               '$_counter',
-              style: TextStyle(color: Colors.blueAccent, fontSize: ),
+              style: TextStyle(color: Colors.blueAccent, fontSize: 100),
             ),
-            Image.asset('images/logo_capdesis.png',height: 10,width: 200,color: Colors.amber,),
+            Image.asset('images/logo_capdesis.png',height: 200,width: 200,color: Colors.amber,),
           ],
         ),
       ),
